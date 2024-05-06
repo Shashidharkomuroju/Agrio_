@@ -1,0 +1,551 @@
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap");
+
+/* ......HERO...... */
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 40px 20px */
+}
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero .content {
+  position: absolute;
+  top: 220px;
+  left: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.hero .content h1 {
+  font-size: 70px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero .content h2 {
+  font-size: 50px;
+  color: white;
+}
+
+.hero .content span {
+  display: block;
+}
+
+.hero .content a {
+  border: 1px solid #4baf47;
+  background-color: #4baf47;
+  color: white;
+  padding: 10px 20px;
+  font-size: 12px;
+  border-radius: 10px;
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 80px;
+  background-color: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  gap: 50px;
+  position: absolute;
+  top: 580px;
+  left: 240px;
+}
+
+.hero .container .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 0px;
+}
+
+.hero .container .card p {
+  font-size: 10px;
+}
+
+/* .........SECTION - 1......  */
+
+.shop{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.shop .products{
+  display: grid;
+  grid-template-columns: repeat(3 , 1fr);
+  gap: 40px;
+  padding: 20px ;
+}
+
+.shop img{
+  width: 220px;
+}
+
+.product button{
+  width: 120px;
+  height: 40px;
+  background-color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  border-radius: 15px;
+  color: black;
+}
+
+.cartItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.cartItem img{
+  width: 140px;
+}
+
+.cartItem .countHandler{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.cartItem .countHandler input{
+width: 40px;
+text-align: center;
+}
+
+.cartItem .countHandler button{
+  width: 20px;
+}
+
+.cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 100px 20px;
+}
+
+.cart .checkout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;  
+}
+
+.cart .checkout p{
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.cart .checkout button{
+  width: 180px;
+  height: 40px;
+  background-color: dodgerblue;
+  border: 1px solid dodgerblue;
+  color:black;
+  font-weight: bold;
+}
+
+.empty{
+  padding: 180px ;
+}
+
+
+/* ......SECTION - 2....... */
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.section2 .section2-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  bottom: 160px;
+  left: 240px;
+  z-index: 9999;
+}
+
+.section2 .section2-element .element img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.section2 .section2-element .element1 img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.section2 .section2-element .element .element-content {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  gap: 10px;
+  color: white;
+}
+
+.section2 .section2-element span {
+  display: block;
+}
+
+.section2 .section2-element .element .element-content h2 {
+  font-size: 30px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section2 .section2-element .element1 .element-content1 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+  left: 440px;
+  gap: 10px;
+  color: white;
+}
+
+.section2 .section2-element .element1 .element-content1 h2 {
+  font-size: 30px;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section2 .section2-element a {
+  border: 1px solid white;
+  background-color: white;
+  color: black;
+  padding: 8px 8px;
+  border-radius: 8px;
+}
+
+.section2 .section2-img {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2 .section2-img img {
+  width: 100%;
+  height: 100vh;
+  object-fit: contain;
+  position: absolute;
+  top: 80px;
+  left: -10px;
+}
+
+/* ........SECTION - 3........ */
+
+.section3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 10px;
+}
+
+.section3 .section3-content {
+  text-align: center;
+}
+
+.section3 .section3-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.section3 .section3-cards img {
+  width: 200px;
+}
+
+.section3 .section3-content h5 {
+  font-size: 20px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ......SECTION - 4......... */
+
+.section4 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 10px;
+}
+
+.section4 .section4-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section4 .section4-content .content2 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.section4 .section4-content span {
+  display: block;
+}
+
+.section4 .section4-content p {
+  font-size: 12px;
+}
+
+.section4 .section4-content .content1 h5 {
+  font-size: 20px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section4 .section4-content .content1 h2 {
+  font-size: 30px;
+}
+
+.section4 .section4-content a {
+  border: 1px solid #4baf47;
+  background-color: #4baf47;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+
+.section4 .section4-img {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.section4 .section4-img img {
+  width: 460px;
+}
+
+/* ......SECTION - 5...... */
+
+.section5 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #1f1e17;
+  color: #a5a49a;
+  padding: 40px 20px;
+}
+
+/* .....SECTION - 6...... */
+
+.section6 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.section6 .section6-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 20px 10px;
+  position: relative;
+}
+
+.section6 .section6-img .card .car1 img {
+  width: 400px;
+  position: relative;
+}
+
+.section6 .section6-img .card .car2 img {
+  width: 100px;
+  position: absolute;
+  top: 100px;
+  left: -50px;
+}
+
+.section6 .section6-img .card1 .car3 img {
+  width: 380px;
+  position: relative;
+}
+
+.section6 .section6-img .card1 .car4 img {
+  width: 100px;
+  position: absolute;
+  top: 80px;
+  left: 440px;
+}
+
+.section6 .section6-content h5 {
+  font-size: 20px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .....SECTION - 7........ */
+
+.section7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.section7 .section7-content {
+  text-align: center;
+}
+
+.section7 .section7-content h5 {
+  font-size: 20px;
+  color: #eec044;
+  font-family: "Covered By Your Grace", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.section7 .section7-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.section7 .section7-cards .card1 img {
+  width: 260px;
+  position: relative;
+}
+
+.section7 .section7-cards .card2 img {
+  width: 260px;
+}
+
+.section7 .section7-cards .card3 img {
+  width: 260px;
+}
+
+.section7 .section7-cards .card1 .card {
+  width: 140px;
+  height: 50px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: absolute;
+  left: 380px;
+  bottom: 0px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section7 .section7-cards .card2 .card1 {
+  width: 140px;
+  height: 50px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: absolute;
+  left: 690px;
+  bottom: 0px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section7 .section7-cards .card3 .card2 {
+  width: 140px;
+  height: 50px;
+  background-color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  position: absolute;
+  left: 990px;
+  bottom: 0px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.section7 .section7-cards p {
+  font-size: 10px;
+}
+
+/* ......SECTION - 8....... */
+
+.section8{
+  width: 100%;
+  padding: 0 40px;
+  background-color:lightskyblue;
+  padding: 40px ;
+}
+
+.section8 img{
+  width: 100%;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+
